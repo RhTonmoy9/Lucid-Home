@@ -1,0 +1,121 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	font-family: 'source sans 3' sans-serif;
+	font-size: 14px;
+	line-height: 1.7em;
+	margin: 0px;
+}
+
+h1 , h2 , h3 , h4 , h5 , h6 {
+	font-family: 'source sans 3' sans-serif;
+
+
+}
+
+a , a:hover , a:focus {
+	text-decoration: none;
+}
+
+.header {
+	width: 100%;
+	padding: 10px 0px;
+	background: url('bg.png') center top no-repeat;
+	background: cover;
+	height: auto;
+}
+.header .navbar-nav .nav-item .nav-link {
+	color: #fff;
+	font-size: 16px;
+	text-transform: capitalize;
+	font-weight: 600;
+	margin: 0px 0px 0px 25px;
+}
+.header .navbar-nav .nav-item .nav-link:hover , .header .navbar-nav .nav-item .nav-link:focus {
+	background: url('line.png') center bottom no-repeat;
+	background: auto;
+}
+.header .navbar-nav .nav-item .active {
+	background: url('line.png') center bottom no-repeat;
+	background: auto;
+}
+.banner{
+	padding: 10px 0px 80px 0px;
+} 
+.banner h4 {
+	color: #0871a7;
+	font-weight: 600;
+	padding: 80px 0px 30px 0px;
+}
+.banner h1 {
+	color: #fdfbff;
+	font-weight: 600;
+	padding: 0px 0px 30px 0px;
+
+}
+.banner p {
+	color: #59595d;
+	font-weight: 600;
+	padding: 0px 0px 60px 0px;
+
+}
+}
+
+.banner .action-buttons .btn .btn-primary {
+    letter-spacing: 1px;
+    background: #008ed6;
+    padding: 20px 30px;
+    font-weight: 600;
+    color: #fff;
+}
+.banner .action-buttons .btn-primary:hover ,.banner .action-buttons .btn-primary:focus {
+
+}
+.banner .action-buttons .btn-info {
+	letter-spacing: 1px;
+    background: transparent;
+    padding: 20px 30px;
+    font-weight: 600;
+    border: 1px solid #999;
+    color: #fff;
+}
+
+
+.banner .action-buttons .btn-info:hover ,.banner .action-buttons .btn-info:focus  {
+	background: #08c;
+	color: #fff;
+	border: 1px solid #08c;
+}
+
+.slider {
+	text-align: center;
+	font-weight: 600;
+	line-height: 1.7em;
+}
+.slider p {
+	text-transform: uppercase;
+	color: #6bb0e1;
+}
+.slider .line {
+	margin: 40px 0px;
+}
+.slider .slider-img{
+	height: 85px;
+	width: 85px;
+	line-height: 85px;
+	padding: 24px;
+	margin: 0px auto 20px;
+	border: 1px solid #e0e0e0;
+	border-radius: 100%;
+}
+
+.slider .slider-p {
+	font-weight: 600;
+	color: #e0e0e0;
+	font-size: 14px;
+	line-height: 1.7em;
+	letter-spacing: 1px;
+}
